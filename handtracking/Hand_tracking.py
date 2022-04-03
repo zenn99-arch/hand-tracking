@@ -27,6 +27,7 @@ while True:
                 print(id, cx,cy)
                 if id==0:
                     cv2.circle(img, (cx,cy), 15, (255,0,255), cv2.FILLED)
+                    
 
             mpDraw.draw_landmarks(img, handlms, mphands.HAND_CONNECTIONS)
 
